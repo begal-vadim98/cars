@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: normal;
+}
+.box {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+#selected {
+  font-size: 20px;
+  padding: 10px;
+}
+.select {
+  margin-right: 20px;
+}
+.card{
+  margin-bottom: 20px;
+  font-size: 20px;
+}

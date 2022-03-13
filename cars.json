@@ -1,0 +1,29 @@
+{
+  "cars": [
+    {
+      "brand": "bmw",
+      "model": "M5",
+      "price": 51000
+    },
+    {
+      "brand": "volvo",
+      "model": "V90",
+      "price": 61000
+    },
+    {
+      "brand": "bmw",
+      "model": "X6",
+      "price": 61000
+    },
+    {
+      "brand": "lada",
+      "model": "VESTA",
+      "price": 161000
+    },
+    {
+      "brand": "RENO",
+      "model": "LOGAN",
+      "price": 11000
+    }
+  ]
+}

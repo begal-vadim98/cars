@@ -24,6 +24,8 @@ const renderCard = (data) => {
     }
     
   })
+  if(btn.options[btn.selectedIndex].value === 'default') boxList.innerHTML = 'Выберите тачку';
+  
 }
 
 
@@ -55,7 +57,6 @@ const getData = (url) => {
   })
   .catch(error => console.log("Ошибка получения данных"))
 }
-
 btn.addEventListener('change', () => getData('cars.json'));
 
 
